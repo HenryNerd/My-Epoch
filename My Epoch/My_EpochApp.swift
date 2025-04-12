@@ -12,6 +12,7 @@ struct My_EpochApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+    .navigationTitle("StartDate")
         }
     }
 }
