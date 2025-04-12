@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var userInput = ""
-    @State private var savedText = ""
+    @AppStorage("userInputText") private var savedText: String = ""
     @State private var isNavigationActive = false
 
     var body: some View {
